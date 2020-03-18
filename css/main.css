@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
 /* * {
     border: 1px solid red;
 } */
 
 body { 
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif !important;
     padding: 0;
 }
 
@@ -11,6 +13,21 @@ ul, li {
     display: block;
     padding: 0;
     margin: 0;
+}
+
+.title {
+    padding: 30px 0px;
+}
+
+.title__first {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.title__second {
+    font-size: 12px;
+    color: #6C6C6C;
 }
 
 .header {
@@ -84,7 +101,7 @@ margin-top: 38px;
     background: rgba(255, 255, 255, 0);
 }
 
-.baner__button_text1 {
+.baner__button_text {
     position: absolute;
     width: 127px;
     height: 33px;
@@ -145,86 +162,47 @@ margin-top: 38px;
     color: #ffffff; 
 }
 
-.sale { 
-    background: #ffffff;
-}
-.sale__container {
-    position: absolute;
-    width: 1440px;
-    height: 63px;
-    left: 0px;
-    top: 0px;    
+.sale {
+    border-bottom: 1px solid #EDEDED;
 }
 
-.error__title {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 149.99px;
-    top: 628.96px;
-}
-
-.sale__description {
-    position: absolute;
-    width: 560px;
-    height: 62px;
-    left: 183px;
-    top: 610px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
+.sale__block {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.sale__info {
+    display: flex;
+    align-items: center;
+}
+
+.sale__img {
+    margin: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.sale__text {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.sale__button {
+    font-size: 12px;
+    color: #000000;
+    border-radius: 4px;
+    border: 1px solid #EDEDED;
+    padding: 9px 19px;
+}
+
+.sale__orange {
     color: #FF7A00;
 }
 
-.sale__text_button {
-    position: absolute;
-    width: 134px;
-    height: 14px;
-    left: 1136px;
-    top: 634px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-}
 
-.sale__description_button {
-    position: absolute;
-    width: 173px;
-    height: 33px;
-    left: 1117px;
-    top: 625px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #000000;
-    border: 1px solid #EDEDED;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
 
-hr {
-    position: absolute;
-    width: 1440px;
-    height: 0px;
-    left: 0px;
-    top: 673px;
-    border: 1px solid rgb(0, 0, 0);
-}
+
 
 .news {
     background: #ffffff;
@@ -232,21 +210,13 @@ hr {
 
 }
 
-.news__title {
-    font-size: 24px;
-    color: #000000;
-    font-weight: bold;
-    padding: 15px
-
-}
-
 .news__block {
-    border: 1px solid #000000;
+    border: 1px solid #EDEDED;
     border-radius: 4px;
 }
 
 .news__blockTitle {
-    font-size: 24px;
+    font-size: 18px;
     color: #000000;
     font-weight: bold;
     margin: 26px
