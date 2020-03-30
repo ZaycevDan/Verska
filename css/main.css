@@ -59,22 +59,41 @@ ul, li {
 }
 
 .baner__title {
+    position: relative;
     font-size: 36px;
     font-style: bold;
     color: #ffffff;
-    margin-top: px;
+    left: 0;
+    top: 150px;
 }
 
 .baner__description {
-    padding-top: 158px;
+    position: relative;
+    top: 160px;
+    width: 600px;
+    color: #ffffff;
 }
 
 .baner__buttons {
     display: flex;
+    position: relative;
+    top: 185px;
 }
 
 .baner__button {
+    padding: 5px 20px;
+    width: 127px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.5s ease; 
+}
 
+.baner__button:hover {
+    background: #ffffff;
+    color: #000000;
 }
 
 .baner__button[name="prices"] {
@@ -113,6 +132,7 @@ ul, li {
     border-radius: 4px;
     border: 1px solid #EDEDED;
     padding: 9px 19px;
+    outline: none;
 }
 
 .sale__orange {
@@ -269,7 +289,7 @@ ul, li {
     border: 1px solid #EDEDED;
     margin-left: 20px;
     padding: 9px 19px;
-    
+    outline: none;
 }
 
 .feedback__question {
@@ -289,6 +309,7 @@ ul, li {
     border: 1px solid #121A67;
     background: #121A67;
     padding: 9px 19px;
+    outline: none;
 }
 
 .footer__title {
@@ -304,7 +325,13 @@ ul, li {
     font-size: 12px;
     padding-top: 27px;
 }
+
 .footer__list a {
-    color: #0B0E66;
     font-size: 12px;
+    color: #26334D;
+}
+
+.footer__list a:hover {
+    color: rgb(63, 69, 82);
+    text-decoration: none;
 }
