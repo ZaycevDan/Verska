@@ -37,7 +37,7 @@ ul, li {
 }
 
 .header_menu {
-margin-top: 38px;
+    margin-top: 38px;
 }
 
 .header__menuItem {
@@ -48,118 +48,37 @@ margin-top: 38px;
     font-weight: normal;
     font-size: 12px;
     color: #000000;
-} */
+}
 
-.baner__photo {
-    position: absolute;
-    width: 1440px;
+.baner {
+    background: url(../img/baner.png) no-repeat center center / cover;
+}
+
+.baner__item {
     height: 500px;
-    left: 0px;
-    top: 110px;    
 }
 
 .baner__title {
-    position: absolute;
-    width: 589px;
-    height: 42px;
-    left: 150px;
-    top: 268px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
+    font-style: bold;
+    color: #ffffff;
+    margin-top: px;
 }
 
 .baner__description {
-    position: absolute;
-    width: 560px;
-    height: 64px;
-    left: 150px;
-    top: 327px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
+    padding-top: 158px;
 }
 
-.baner__button_download {
-    position: absolute;
-    width: 127px;
-    height: 33px;
-    left: 292px;
-    top: 432px;
-    
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 4px;
-    background: rgba(255, 255, 255, 0);
-}
-
-.baner__button_text {
-    position: absolute;
-    width: 127px;
-    height: 33px;
-    left: 188px;
-    top: 432px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
+.baner__buttons {
     display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.1em;
-
-    color: #FFFFFF;
 }
 
-.baner__button_text2 {
-    position: absolute;
-    width: 127px;
-    height: 33px;
-    left: 338px;
-    top: 432px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
+.baner__button {
+
 }
 
-.baner__button_price {
-    position: absolute;
-    width: 127px;
-    height: 33px;
-    left: 150px;
-    top: 432px;
-    
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 4px;
-    background: rgba(255, 255, 255, 0);
-}
-
-.baner__button_price:hover {
-    background: #786b59;  
-    color: #ffffff; 
-}
-
-.baner__button_download:hover {
-    background: #786b59; 
-    color: #ffffff; 
+.baner__button[name="prices"] {
+    margin-left: 15px;
 }
 
 .sale {
@@ -318,4 +237,74 @@ margin-top: 38px;
     color: #6c6c6c;
     text-align: center;
     padding: 14px;
+}
+
+.feedback {
+    border-bottom: 1px solid #EDEDED;
+}
+
+.feedback_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 9px;
+}
+
+.feedback__phone {
+    display: flex;
+
+}
+
+.feedback__number {
+    font-size: 18px;
+    font-style: bold;
+    color: #000000;
+    padding: 9px 19px;
+}
+
+.feedback__buttonCall {
+    font-size: 12px;
+    color: #000000;
+    border-radius: 4px;
+    border: 1px solid #EDEDED;
+    margin-left: 20px;
+    padding: 9px 19px;
+    
+}
+
+.feedback__question {
+    display: flex;
+}
+
+.feedback__complaints {
+    font-size: 12px;
+    color: #000000;
+    padding: 9px 19px;
+}
+
+.feedback__buttonQuestion {
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #121A67;
+    background: #121A67;
+    padding: 9px 19px;
+}
+
+.footer__title {
+    color: #6c6c6c;
+    font-size: 12px;
+    padding-top: 27px;
+    padding-left: 15px;
+    padding-bottom: 14px;
+}
+
+.footer__list h6 {
+    color: #6c6c6c;
+    font-size: 12px;
+    padding-top: 27px;
+}
+.footer__list a {
+    color: #0B0E66;
+    font-size: 12px;
 }
