@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
+/* COMMON */
+
 /* * {
     border: 1px solid red;
 } */
@@ -30,6 +32,8 @@ ul, li {
     color: #6C6C6C;
 }
 
+/* HEADER */
+
 .header {
     background: #ffffff;
     color: #000000;
@@ -49,6 +53,8 @@ ul, li {
     font-size: 12px;
     color: #000000;
 }
+
+/* BANER */
 
 .baner {
     background: url(../img/baner.png) no-repeat center center / cover;
@@ -100,6 +106,8 @@ ul, li {
     margin-left: 15px;
 }
 
+/* SALE */
+
 .sale {
     border-bottom: 1px solid #EDEDED;
 }
@@ -139,14 +147,11 @@ ul, li {
     color: #FF7A00;
 }
 
-
-
-
+/* NEWS */
 
 .news {
     background: #ffffff;
     font-family: Roboto;
-
 }
 
 .news__block {
@@ -179,6 +184,8 @@ ul, li {
     text-align: center;
     padding: 38px;
 }
+
+/* PROJECTS */
 
 .projects {
     background: #EDEDED;
@@ -259,6 +266,8 @@ ul, li {
     padding: 14px;
 }
 
+/* FEEDBACK */
+
 .feedback {
     border-bottom: 1px solid #EDEDED;
 }
@@ -272,7 +281,6 @@ ul, li {
 
 .feedback__phone {
     display: flex;
-
 }
 
 .feedback__number {
@@ -311,6 +319,8 @@ ul, li {
     padding: 9px 19px;
     outline: none;
 }
+
+/* FOOTER */
 
 .footer__title {
     color: #6c6c6c;

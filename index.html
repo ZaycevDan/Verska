@@ -1,626 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Diffuse</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Diffuse</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/logo.png" alt="Diffuse" class="header__logo">
+                    </div>
+                    <div class="col-lg-8 ml-auto">
+                        <nav>
+                            <ul class="header_menu d-flex justify-content-center">
+                                <li class="header__menuItem">
+                                    <a href="#">
+                                        КАТАЛОГ
+                                    </a>
+                                </li>
+                                <li class="header__menuItem">
+                                    <a href="#">
+                                        О КОМПАНИИ
+                                    </a>
+                                </li>
+                                <li class="header__menuItem">
+                                    <a href="#">
+                                        ДОСТАВКА
+                                    </a>
+                                </li>
+                                <li class="header__menuItem">
+                                    <a href="#">
+                                        КОНТАКТЫ
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-    <header id="header" class="header">
-        <div class="container">
+        <section id="baner" class="baner">
+            <div class="container">
+                <div class="baner__item">
+                    <div class="baner__title">
+                        Школа анализа данных
+                    </div>
+                    <div class="baner__description">
+                        X5 Retail Group, ведущая мультиформатная розничная компания России, объявляет о запуске первых модулей «Цифровой академии» - корпоративной образовательной площадки для развития цифровых навыков и знаний сотрудников.
+                    </div>
+                    <div class="baner__buttons">
+                        <input name="download" value="Скачать" type="button" class="baner__button"></input>
+                        <input name="prices" value="Цены" type="button" class="baner__button"></input>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="img/logo.png" alt="Diffuse" class="header__logo">
-                </div>
-                <div class="col-lg-8 ml-auto">
-                    <nav>
-                        <ul class="header_menu d-flex justify-content-center">
-                            <li class="header__menuItem">
-                                <a href="#">
-                                    КАТАЛОГ
-                                </a>
-                            </li>
-                            <li class="header__menuItem">
-                                <a href="#">
-                                    О КОМПАНИИ
-                                </a>
-                            </li>
-                            <li class="header__menuItem">
-                                <a href="#">
-                                    ДОСТАВКА
-                                </a>
-                            </li>
-                            <li class="header__menuItem">
-                                <a href="#">
-                                    КОНТАКТЫ
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id="baner" class="baner">
-        <div class="container">
-            <div class="baner__item">
-                <div class="baner__title">
-                    Школа анализа данных
-                </div>
-                <div class="baner__description">
-                    X5 Retail Group, ведущая мультиформатная розничная компания России, объявляет о запуске первых модулей «Цифровой академии» - корпоративной образовательной площадки для развития цифровых навыков и знаний сотрудников.
-                </div>
-                <div class="baner__buttons">
-                    <input name="download" value="Скачать" type="button" class="baner__button"></input>
-                    <input name="prices" value="Цены" type="button" class="baner__button"></input>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="sale" class="sale">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="sale__block">
-                        <div class="sale__info">
-                            <img src="img/error.png" alt="error" class="sale__img">
-                            <div class="sale__text">
-                                <span class="sale__orange"> Льготная ипотека, </span> обмен на специальных условиях
-                            </div>
-                        </div>
-                        <input value="Получить предложение" type="button" class="sale__button"></input>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="news" class="news"> 
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="title">
-                        <div class="title__first">
-                            Наши проекты в Москве и Московской области
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                    <div class="news__block">
-                        <div class="news__blockTitle">
-                            Cтарт продаж квартир в новом корпусе
-                        </div>
-                        <div class="news__blockDescription">
-                            Начались продажи квартир в корпусе 5 проекта «Ильменский 17».
-                        </div>
-                        <div class="news__blockData">
-                            12 марта 2020 - ИЛЬМЕНСКИЙ 17
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                    <div class="news__block">
-                        <div class="news__blockTitle">
-                            Cтарт продаж квартир в новом корпусе
-                        </div>
-                        <div class="news__blockDescription">
-                            Начались продажи квартир в корпусе 5 проекта «Ильменский 17».
-                        </div>
-                        <div class="news__blockData">
-                            12 марта 2020 - ИЛЬМЕНСКИЙ 17
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                    <div class="news__block">
-                        <div class="news__blockTitle">
-                            Cтарт продаж квартир в новом корпусе
-                        </div>
-                        <div class="news__blockDescription">
-                            Начались продажи квартир в корпусе 5 проекта «Ильменский 17».
-                        </div>
-                        <div class="news__blockData">
-                            12 марта 2020 - ИЛЬМЕНСКИЙ 17
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="news__textLook">
-                        Еще 45 новостей
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="projects" class="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="title">
-                        <div class="title__first">
-                            Наши проекты в Москве и Московской области
-                        </div>
-                        <div class="title__second">
-                            Более 12 лет работы с крупными компаниями
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="projects__post">
-                        <img src="img/post 1.png" alt="List" class="projects__img">
-                        <div class="projects__blockContent">
-                            <div class="projects__blockUser">
-                                <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
-                                <div class="projects__blockPersonData">
-                                    <div class="projects__blockName">
-                                        Tommy Armstrong
-                                    </div>
-                                    <div class="projects__blockJob">
-                                        Head manager
-                                    </div>
+        <section id="sale" class="sale">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="sale__block">
+                            <div class="sale__info">
+                                <img src="img/error.png" alt="error" class="sale__img">
+                                <div class="sale__text">
+                                    <span class="sale__orange"> Льготная ипотека, </span> обмен на специальных условиях
                                 </div>
                             </div>
-                            <div class="projects__blockDate">
-                                <div class="projects__blockTime">
-                                    12.10.2020  14:21
-                                </div>
-                                <div class="projects__blockLike">
-                                    <img src="img/health.png" alt="List" class="projects__blockHeart">
-                                    <div class="projects__blockLikeCount">
-                                        251
-                                    </div>
-                                </div>
-                            </div>  
-                        </div>
+                            <input value="Получить предложение" type="button" class="sale__button"></input>
+                        </div> 
                     </div>
                 </div>
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="projects__post">
-                        <img src="img/post 2.png" alt="List" class="projects__img">
-                        <div class="projects__blockContent">
-                            <div class="projects__blockUser">
-                                <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
-                                <div class="projects__blockPersonData">
-                                    <div class="projects__blockName">
-                                        Tommy Armstrong
-                                    </div>
-                                    <div class="projects__blockJob">
-                                        Head manager
-                                    </div>
-                                </div>
+            </div>
+        </section>
+
+        <section id="news" class="news"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="title">
+                            <div class="title__first">
+                                Наши проекты в Москве и Московской области
                             </div>
-                            <div class="projects__blockDate">
-                                <div class="projects__blockTime">
-                                    12.10.2020  14:21
-                                </div>
-                                <div class="projects__blockLike">
-                                    <img src="img/health.png" alt="List" class="projects__blockHeart">
-                                    <div class="projects__blockLikeCount">
-                                        251
-                                    </div>
-                                </div>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="projects__post">
-                        <img src="img/post 3.png" alt="List" class="projects__img">
-                        <div class="projects__blockContent">
-                            <div class="projects__blockUser">
-                                <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
-                                <div class="projects__blockPersonData">
-                                    <div class="projects__blockName">
-                                        Tommy Armstrong
-                                    </div>
-                                    <div class="projects__blockJob">
-                                        Head manager
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="projects__blockDate">
-                                <div class="projects__blockTime">
-                                    12.10.2020  14:21
-                                </div>
-                                <div class="projects__blockLike">
-                                    <img src="img/health.png" alt="List" class="projects__blockHeart">
-                                    <div class="projects__blockLikeCount">
-                                        251
-                                    </div>
-                                </div>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="projects__post">
-                        <img src="img/post 4.png" alt="List" class="projects__img">
-                        <div class="projects__blockContent">
-                            <div class="projects__blockUser">
-                                <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
-                                <div class="projects__blockPersonData">
-                                    <div class="projects__blockName">
-                                        Tommy Armstrong
-                                    </div>
-                                    <div class="projects__blockJob">
-                                        Head manager
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="projects__blockDate">
-                                <div class="projects__blockTime">
-                                    12.10.2020  14:21
-                                </div>
-                                <div class="projects__blockLike">
-                                    <img src="img/health.png" alt="List" class="projects__blockHeart">
-                                    <div class="projects__blockLikeCount">
-                                        251
-                                    </div>
-                                </div>
-                            </div>  
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="projects__post">
-                        <img src="img/post 5.png" alt="List" class="projects__img">
-                        <div class="projects__blockContent">
-                            <div class="projects__blockUser">
-                                <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
-                                <div class="projects__blockPersonData">
-                                    <div class="projects__blockName">
-                                        Tommy Armstrong
-                                    </div>
-                                    <div class="projects__blockJob">
-                                        Head manager
-                                    </div>
-                                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="news__block">
+                            <div class="news__blockTitle">
+                                Cтарт продаж квартир в новом корпусе
                             </div>
-                            <div class="projects__blockDate">
-                                <div class="projects__blockTime">
-                                    12.10.2020  14:21
-                                </div>
-                                <div class="projects__blockLike">
-                                    <img src="img/health.png" alt="List" class="projects__blockHeart">
-                                    <div class="projects__blockLikeCount">
-                                        251
-                                    </div>
-                                </div>
-                            </div>  
+                            <div class="news__blockDescription">
+                                Начались продажи квартир в корпусе 5 проекта «Ильменский 17».
+                            </div>
+                            <div class="news__blockData">
+                                12 марта 2020 - ИЛЬМЕНСКИЙ 17
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="news__block">
+                            <div class="news__blockTitle">
+                                Cтарт продаж квартир в новом корпусе
+                            </div>
+                            <div class="news__blockDescription">
+                                Начались продажи квартир в корпусе 5 проекта «Ильменский 17».
+                            </div>
+                            <div class="news__blockData">
+                                12 марта 2020 - ИЛЬМЕНСКИЙ 17
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="news__block">
+                            <div class="news__blockTitle">
+                                Cтарт продаж квартир в новом корпусе
+                            </div>
+                            <div class="news__blockDescription">
+                                Начались продажи квартир в корпусе 5 проекта «Ильменский 17».
+                            </div>
+                            <div class="news__blockData">
+                                12 марта 2020 - ИЛЬМЕНСКИЙ 17
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="projects__post">
-                        <img src="img/post 6.png" alt="List" class="projects__img">
-                        <div class="projects__blockContent">
-                            <div class="projects__blockUser">
-                                <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
-                                <div class="projects__blockPersonData">
-                                    <div class="projects__blockName">
-                                        Tommy Armstrong
-                                    </div>
-                                    <div class="projects__blockJob">
-                                        Head manager
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="projects__blockDate">
-                                <div class="projects__blockTime">
-                                    12.10.2020  14:21
-                                </div>
-                                <div class="projects__blockLike">
-                                    <img src="img/health.png" alt="List" class="projects__blockHeart">
-                                    <div class="projects__blockLikeCount">
-                                        251
-                                    </div>
-                                </div>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="projects__post">
-                        <img src="img/post 7.png" alt="List" class="projects__img">
-                        <div class="projects__blockContent">
-                            <div class="projects__blockUser">
-                                <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
-                                <div class="projects__blockPersonData">
-                                    <div class="projects__blockName">
-                                        Tommy Armstrong
-                                    </div>
-                                    <div class="projects__blockJob">
-                                        Head manager
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="projects__blockDate">
-                                <div class="projects__blockTime">
-                                    12.10.2020  14:21
-                                </div>
-                                <div class="projects__blockLike">
-                                    <img src="img/health.png" alt="List" class="projects__blockHeart">
-                                    <div class="projects__blockLikeCount">
-                                        251
-                                    </div>
-                                </div>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="projects__post">
-                        <img src="img/post 8.png" alt="List" class="projects__img">
-                        <div class="projects__blockContent">
-                            <div class="projects__blockUser">
-                                <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
-                                <div class="projects__blockPersonData">
-                                    <div class="projects__blockName">
-                                        Tommy Armstrong
-                                    </div>
-                                    <div class="projects__blockJob">
-                                        Head manager
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="projects__blockDate">
-                                <div class="projects__blockTime">
-                                    12.10.2020  14:21
-                                </div>
-                                <div class="projects__blockLike">
-                                    <img src="img/health.png" alt="List" class="projects__blockHeart">
-                                    <div class="projects__blockLikeCount">
-                                        251
-                                    </div>
-                                </div>
-                            </div>  
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="news__textLook">
+                            Еще 45 новостей
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="projects__textLook">
-                        Посмотреть все проекты
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> 
-
-    <section id="feedback" class="feedback">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="feedback_block">
-                        <div class="feedback__phone">
-                            <div class="feedback__number">
-                                8 495 241-99-34
+        </section>
+        
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="title">
+                            <div class="title__first">
+                                Наши проекты в Москве и Московской области
                             </div>
-                            <input value="Перезвоните мне" type="button" class="feedback__buttonCall"></input>
-                        </div>
-                        <div class="feedback__question">
-                            <div class="feedback__complaints">
-                                Есть жалобы или предложения?
+                            <div class="title__second">
+                                Более 12 лет работы с крупными компаниями
                             </div>
-                            <input value="Обращение в ПИК" type="button" class="feedback__buttonQuestion"></input>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="footer" class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="footer__app">
-                        <div class="footer__title">Приложение ПИК</div>
-                        <img src="img/apple.png" alt="List" class="footer__img">
-                        <img src="img/google.png" alt="List" class="footer__img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="projects__post">
+                            <img src="img/post 1.png" alt="List" class="projects__img"> 
+                            <div class="projects__blockContent">
+                                <div class="projects__blockUser">
+                                    <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
+                                    <div class="projects__blockPersonData">
+                                        <div class="projects__blockName">
+                                            Tommy Armstrong
+                                        </div>
+                                        <div class="projects__blockJob">
+                                            Head manager
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projects__blockDate">
+                                    <div class="projects__blockTime">
+                                        12.10.2020  14:21
+                                    </div>
+                                    <div class="projects__blockLike">
+                                        <img src="img/health.png" alt="List" class="projects__blockHeart">
+                                        <div class="projects__blockLikeCount">
+                                            251
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="projects__post">
+                            <img src="img/post 2.png" alt="List" class="projects__img">
+                            <div class="projects__blockContent">
+                                <div class="projects__blockUser">
+                                    <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
+                                    <div class="projects__blockPersonData">
+                                        <div class="projects__blockName">
+                                            Tommy Armstrong
+                                        </div>
+                                        <div class="projects__blockJob">
+                                            Head manager
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projects__blockDate">
+                                    <div class="projects__blockTime">
+                                        12.10.2020  14:21
+                                    </div>
+                                    <div class="projects__blockLike">
+                                        <img src="img/health.png" alt="List" class="projects__blockHeart">
+                                        <div class="projects__blockLikeCount">
+                                            251
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="projects__post">
+                            <img src="img/post 3.png" alt="List" class="projects__img">
+                            <div class="projects__blockContent">
+                                <div class="projects__blockUser">
+                                    <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
+                                    <div class="projects__blockPersonData">
+                                        <div class="projects__blockName">
+                                            Tommy Armstrong
+                                        </div>
+                                        <div class="projects__blockJob">
+                                            Head manager
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projects__blockDate">
+                                    <div class="projects__blockTime">
+                                        12.10.2020  14:21
+                                    </div>
+                                    <div class="projects__blockLike">
+                                        <img src="img/health.png" alt="List" class="projects__blockHeart">
+                                        <div class="projects__blockLikeCount">
+                                            251
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="projects__post">
+                            <img src="img/post 4.png" alt="List" class="projects__img">
+                            <div class="projects__blockContent">
+                                <div class="projects__blockUser">
+                                    <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
+                                    <div class="projects__blockPersonData">
+                                        <div class="projects__blockName">
+                                            Tommy Armstrong
+                                        </div>
+                                        <div class="projects__blockJob">
+                                            Head manager
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projects__blockDate">
+                                    <div class="projects__blockTime">
+                                        12.10.2020  14:21
+                                    </div>
+                                    <div class="projects__blockLike">
+                                        <img src="img/health.png" alt="List" class="projects__blockHeart">
+                                        <div class="projects__blockLikeCount">
+                                            251
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                    <div class="footer__list">
-                        <h6>ПРОЕКТЫ</h6>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    Москва
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Санкт-Петербург
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Екатеринбург
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Тюмень
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Ростов-на-Дону
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Новороссийск
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Ярославль
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Пермь
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Калуга
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Обнинск
-                                </a>
-                            </li>
-                        </ul>
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="projects__post">
+                            <img src="img/post 5.png" alt="List" class="projects__img">
+                            <div class="projects__blockContent">
+                                <div class="projects__blockUser">
+                                    <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
+                                    <div class="projects__blockPersonData">
+                                        <div class="projects__blockName">
+                                            Tommy Armstrong
+                                        </div>
+                                        <div class="projects__blockJob">
+                                            Head manager
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projects__blockDate">
+                                    <div class="projects__blockTime">
+                                        12.10.2020  14:21
+                                    </div>
+                                    <div class="projects__blockLike">
+                                        <img src="img/health.png" alt="List" class="projects__blockHeart">
+                                        <div class="projects__blockLikeCount">
+                                            251
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="projects__post">
+                            <img src="img/post 6.png" alt="List" class="projects__img">
+                            <div class="projects__blockContent">
+                                <div class="projects__blockUser">
+                                    <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
+                                    <div class="projects__blockPersonData">
+                                        <div class="projects__blockName">
+                                            Tommy Armstrong
+                                        </div>
+                                        <div class="projects__blockJob">
+                                            Head manager
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projects__blockDate">
+                                    <div class="projects__blockTime">
+                                        12.10.2020  14:21
+                                    </div>
+                                    <div class="projects__blockLike">
+                                        <img src="img/health.png" alt="List" class="projects__blockHeart">
+                                        <div class="projects__blockLikeCount">
+                                            251
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="projects__post">
+                            <img src="img/post 7.png" alt="List" class="projects__img">
+                            <div class="projects__blockContent">
+                                <div class="projects__blockUser">
+                                    <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
+                                    <div class="projects__blockPersonData">
+                                        <div class="projects__blockName">
+                                            Tommy Armstrong
+                                        </div>
+                                        <div class="projects__blockJob">
+                                            Head manager
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projects__blockDate">
+                                    <div class="projects__blockTime">
+                                        12.10.2020  14:21
+                                    </div>
+                                    <div class="projects__blockLike">
+                                        <img src="img/health.png" alt="List" class="projects__blockHeart">
+                                        <div class="projects__blockLikeCount">
+                                            251
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="projects__post">
+                            <img src="img/post 8.png" alt="List" class="projects__img">
+                            <div class="projects__blockContent">
+                                <div class="projects__blockUser">
+                                    <img src="img/Avatar.png" alt="List" class="projects__blockAvatar">
+                                    <div class="projects__blockPersonData">
+                                        <div class="projects__blockName">
+                                            Tommy Armstrong
+                                        </div>
+                                        <div class="projects__blockJob">
+                                            Head manager
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="projects__blockDate">
+                                    <div class="projects__blockTime">
+                                        12.10.2020  14:21
+                                    </div>
+                                    <div class="projects__blockLike">
+                                        <img src="img/health.png" alt="List" class="projects__blockHeart">
+                                        <div class="projects__blockLikeCount">
+                                            251
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                    <div class="footer__list">
-                        <h6>КОМПАНИЯ</h6>
-                        <ul>
-                            <li >
-                                <a href="#">
-                                    О компании
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Инвесторам
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    For Investors
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Пресса
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Карьера
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Тендеры
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Контакты
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Офисы продаж
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                    <div class="footer__list">
-                        <h6>Услуги</h6>
-                        <ul>
-                            <li >
-                                <a href="#">
-                                    ПИК-Ипотека
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    ПИК-Аренда
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    ПИК-Ремонт
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Франшиза
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                    <div class="footer__list">
-                        <h6>ПИК МЕДИА</h6>
-                        <ul>
-                            <li >
-                                <a href="#">
-                                    Архитектура
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Дизайн
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Технологии
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Финансы
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Тесты
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Гиды
-                                </a>
-                            </li>
-                            <li >
-                                <a href="#">
-                                    Ковёр
-                                </a>
-                            </li>
-                        </ul>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="projects__textLook">
+                            Посмотреть все проекты
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section> 
 
-</body>
+        <section id="feedback" class="feedback">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="feedback_block">
+                            <div class="feedback__phone">
+                                <div class="feedback__number">
+                                    8 495 241-99-34
+                                </div>
+                                <input value="Перезвоните мне" type="button" class="feedback__buttonCall"></input>
+                            </div>
+                            <div class="feedback__question">
+                                <div class="feedback__complaints">
+                                    Есть жалобы или предложения?
+                                </div>
+                                <input value="Обращение в ПИК" type="button" class="feedback__buttonQuestion"></input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="footer__app">
+                            <div class="footer__title">Приложение ПИК</div>
+                            <img src="img/apple.png" alt="List" class="footer__img">
+                            <img src="img/google.png" alt="List" class="footer__img">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <div class="footer__list">
+                            <h6>ПРОЕКТЫ</h6>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        Москва
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Санкт-Петербург
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Екатеринбург
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Тюмень
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Ростов-на-Дону
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Новороссийск
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Ярославль
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Пермь
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Калуга
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Обнинск
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <div class="footer__list">
+                            <h6>КОМПАНИЯ</h6>
+                            <ul>
+                                <li >
+                                    <a href="#">
+                                        О компании
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Инвесторам
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        For Investors
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Пресса
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Карьера
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Тендеры
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Контакты
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Офисы продаж
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <div class="footer__list">
+                            <h6>Услуги</h6>
+                            <ul>
+                                <li >
+                                    <a href="#">
+                                        ПИК-Ипотека
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        ПИК-Аренда
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        ПИК-Ремонт
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Франшиза
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="footer__list">
+                            <h6>ПИК МЕДИА</h6>
+                            <ul>
+                                <li >
+                                    <a href="#">
+                                        Архитектура
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Дизайн
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Технологии
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Финансы
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Тесты
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Гиды
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Ковёр
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
